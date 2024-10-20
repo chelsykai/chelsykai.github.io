@@ -3,14 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            background-color: blue;
-        }
-    </style>
+    <title>Chelsy Kai</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
-    <p>hello world</p>
+    <header class="header">
+        <div class="navbar">
+            <h4 class="logo">Chelsy Kai</h4>
+
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+
+            <!-- links -->
+            <ul class="links">
+                <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqXPnvFszxHNMfvKZqZFgDMdZckmxRnCtqClNwkGmNjJVwpvWWwPCfSKRJcqjBNkMmlWKg"><img id="mailIcon" src="multimedia/images/mail.png" alt="Gmail" style="width:26px; height:26px;"></a></li>
+                <li><a href="https://github.com/chelsykai"><img id="githubIcon" src="multimedia/images/github.png" alt="Git" style="width:26px; height:26px;"></a></li>
+            </ul> 
+        </div>
+        </nav>    
+    </header>
+
+    <div class="container">
+            <section id="home">
+                <p id="l1">hi, i'm <span style="color: #921A40; font-weight: bolder;">chelsy</span> !</p>
+                <p id="l2">I'm a college student from Manila, I am deeply fascinated by software <br> 
+                    jobs and I aspire to build a career in software and web development, <br>  focusing on creating innovative solutions and applications.
+                </p>
+                    
+                <button id="btnHi" onclick="sendMsg(this)" value="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqXPnvFszxHNMfvKZqZFgDMdZckmxRnCtqClNwkGmNjJVwpvWWwPCfSKRJcqjBNkMmlWKg">Say Hi!</button>
+            </section>
+
+            <section id="about">
+                <div class="about me">
+                    <p id="titleabout">/ About Me</p>
+                    <p id="textAM">I'm currently a 2nd year college student, studying in <span style="color: #921A40; font-weight: bolder;">Polytechnic University<br>
+                        of the Philippines - Manila</span>. With my passion in programming, I am dedicated <br> in learning new technologies and in honing my programming skills. <br> <br>
+                        As I continue my studies, I'm looking forward to expanding my skills and <br> knowledge to attain  
+                        a successful career as an IT. <br><br><br>
+
+                        <span style="color: #921A40; font-weight: bold;">Listed below are the technologies in which I am proficient in: </span>
+                    </p>  
+                </div>
+                
+
+                <div class="listLanguages"> 
+                    <div id="languages">
+                        <ul>
+                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> C</li>     
+                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> C++</li>
+                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> C#</li>
+                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> Java</li>
+                        </ul>
+                    </div>
+                    <div id="languages">
+                        <ul>
+                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> HTML</li>     
+                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> CSS</li>
+                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> Javascript</li>
+                        </ul>
+                    </div>
+
+                    <!-- <p><br></p>
+                    <div class="resume">
+                        <a href="documents/RESUME_Paralejas.pdf">Download Resume</a>
+                    </div> -->
+                </div>
+
+                <div class="chelsy">
+                    <img src="multimedia/images/chang.png" alt="chelsykai" width="350" height="400">
+                </div>
+            </section>
+
+            <section id="experience">
+                <p id="titleexp">/ Experience</p>
+                <p id="noteexp"> no professional experience yet.</p>
+            </section>
+
+            <section id="projects">
+                <p id="titleprojs">/ Projects</p>
+                <p id="noteproj"> no projects yet.</p>
+            </section>
+    </div>
+    
+   
 </body>
 </html>
