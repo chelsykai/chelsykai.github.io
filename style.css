@@ -1,3 +1,4 @@
+/* color palette #f2e6d7, #921A40, #dc9e9e, #ae6a7f*/
 
 * {
     margin: 0;
@@ -206,4 +207,13 @@ img {
 #projects #noteproj {
     color: #ae6a7f;
     font-size: 18px;
+}
+
+/* footer */
+.foot #end {
+    font-size: 13px;
+    font-weight: bold;
+    color: #921a40c3;
+    text-align: center;
+    padding-top: 370px;
 }
