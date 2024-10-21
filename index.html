@@ -16,13 +16,13 @@
             <ul class="nav">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#activities">Activities</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
 
             <!-- links -->
             <ul class="links">
-                <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqXPnvFszxHNMfvKZqZFgDMdZckmxRnCtqClNwkGmNjJVwpvWWwPCfSKRJcqjBNkMmlWKg"><img id="mailIcon" src="multimedia/images/mail.png" alt="Gmail" style="width:26px; height:26px;"></a></li>
+                <li><a href="mailto:chelsyparalejas@gmail.com"><img id="mailIcon" src="multimedia/images/mail.png" alt="Gmail" style="width:26px; height:26px;"></a></li>
                 <li><a href="https://github.com/chelsykai"><img id="githubIcon" src="multimedia/images/github.png" alt="Git" style="width:26px; height:26px;"></a></li>
             </ul> 
         </div>
@@ -37,11 +37,12 @@
                     jobs and I aspire to build a career in software and web development, <br>  focusing on creating innovative solutions and applications.
                 </p>
                     
-                <button id="btnHi" onclick="sendMsg(this)" value="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqXPnvFszxHNMfvKZqZFgDMdZckmxRnCtqClNwkGmNjJVwpvWWwPCfSKRJcqjBNkMmlWKg">Say Hi!</button>
+                <button id="btnHi" onclick="sendMsg(this)" value="mailto:chelsyparalejas@gmail.com">Say Hi!</button>
             </section>
 
             <!-- about section -->
             <section id="about">
+                
                 <div class="about me">
                     <p id="titleabout">/ About Me</p>
                     <p id="textAM">I'm currently a 2nd year college student, studying in <span style="color: #921A40; font-weight: bolder;">Polytechnic University<br>
@@ -51,41 +52,56 @@
 
                         <span style="color: #921A40; font-weight: bold;">Listed below are the technologies in which I am proficient in: </span>
                     </p>  
-                </div>
                 
-
-                <div class="listLanguages"> 
-                    <div id="languages">
-                        <ul>
-                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> C</li>     
-                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> C++</li>
-                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> C#</li>
-                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> Java</li>
-                        </ul>
+                    <div class="listLanguages"> 
+                        <div id="languages">
+                            <ul>
+                                <li><img src="multimedia/images/flowericon.png" id="flowericon"> C</li>     
+                                <li><img src="multimedia/images/flowericon.png" id="flowericon"> C++</li>
+                                <li><img src="multimedia/images/flowericon.png" id="flowericon"> C#</li>
+                                <li><img src="multimedia/images/flowericon.png" id="flowericon"> Java</li>
+                            </ul>
+                        </div>
+                        <div id="languages">
+                            <ul>
+                                <li><img src="multimedia/images/flowericon.png" id="flowericon"> HTML</li>     
+                                <li><img src="multimedia/images/flowericon.png" id="flowericon"> CSS</li>
+                                <li><img src="multimedia/images/flowericon.png" id="flowericon"> Javascript</li>
+                            </ul>
+                        </div>
+    
+                        <!-- <p><br></p>
+                        <div class="resume">
+                            <a href="documents/RESUME_Paralejas.pdf">Download Resume</a>
+                        </div> -->
                     </div>
-                    <div id="languages">
-                        <ul>
-                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> HTML</li>     
-                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> CSS</li>
-                            <li><img src="multimedia/images/flowericon.png" id="flowericon"> Javascript</li>
-                        </ul>
-                    </div>
-
-                    <!-- <p><br></p>
-                    <div class="resume">
-                        <a href="documents/RESUME_Paralejas.pdf">Download Resume</a>
-                    </div> -->
                 </div>
-
-                <div class="chelsy">
+                <div id="chelsy">
                     <img src="multimedia/images/chang.png" alt="chelsykai" width="350" height="400">
                 </div>
+            
             </section>
 
-            <!-- experience section -->
-            <section id="experience">
-                <p id="titleexp">/ Experience</p>
-                <p id="noteexp"> no professional experience yet.</p>
+            <!-- activities section -->
+            <section id="activities">
+               <p id="titleact">/ Activities</p> 
+               <div class="conAct">
+                    <div class="exp">
+                        <p id="titleexp">Experience</p>
+                            <div class="line1"> </div>
+                            <div class="block1"> </div>
+                    </div>
+                    <div class="trainings">
+                        <p id="titletrain">Trainings Attended</p>
+                            <div class="line2"> </div>
+                            <div class="block2"> </div>
+                    </div>
+                </div> 
+                    
+                <div class="resume">
+                    <p id="resumenote">For more information, here's a downloadable PDF file of my resume: </p>
+                    <a href="documents/RESUME_Paralejas.pdf" id="resumebtn">DOWNLOAD RESUME</a>
+                </div>
             </section>
 
             <!-- projects section -->

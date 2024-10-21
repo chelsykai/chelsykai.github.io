@@ -122,8 +122,9 @@ section {
 
 /* about section */
 #about {
-    padding-top: 100px;
+    padding-top: 110px;
     padding-left: 120px;
+    display: flex;
 }
 
 #about #titleabout {
@@ -169,27 +170,106 @@ img {
     border-radius: 20%;
 }
 
-#about .chelsy {
-    position: relative;
-    top: -470px;
+#about #chelsy {
     left: 860px;
+    margin-left: 130px;
 }
 
-/* exp section */
-#experience {
-    padding-top: 100px;
+/* activities section */
+#activities {
+    padding-top: 60px;
     padding-left: 120px;
 }
 
-#experience #titleexp {
+#activities .conAct {
+    display: flex;
+}
+
+#activities #titleact {
     font-size: 50px;
     color: #921A40;
     padding-bottom: 2rem;
 }
 
-#experience #noteexp {
+/* column 1 */
+#activities #titleexp {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #ae6a7f;
+    padding-bottom: 3px;
+}
+
+#activities .line1 {
+    height: 3px;
+    width: 35rem;
+    background-color: #ae6a7f;
+    margin-bottom: 5px;
+}
+
+#activities .block1 {
+    height: 24rem;
+    width: 35rem;
+    background-color: transparent;
+    border: 3px solid #ae6a7f;
+    /* border-top-right-radius: 10%; */
+    border-bottom-right-radius: 10%;
+    margin-left: 0;
+}
+
+/* column 2 */
+#activities .trainings {
+    margin-left: 65px;
+}
+
+#activities #titletrain {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #ae6a7f;
+    padding-bottom: 3px;
+    margin-left: 275px;
+}
+
+#activities .line2 {
+    height: 3px;
+    width: 35rem;
+    background-color: #ae6a7f;
+    margin-bottom: 5px;
+}
+
+#activities .block2 {
+    height: 24rem;
+    width: 35rem;
+    background-color: transparent;
+    border: 3px solid #ae6a7f;
+    border-bottom-left-radius: 10%;
+    margin-left: 0;
+}
+
+.resume {
+    padding-top: 20px;
+}
+
+.resume #resumenote {
     color: #ae6a7f;
     font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#resumebtn {
+    padding: 10px 15px; 
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background-color: #ae6a7f;
+    border: 2px solid #ae6a7f;
+    transition: 0.3s;
+}
+
+#resumebtn:hover {
+    background-color: transparent;
+    color: #ae6a7f;
 }
 
 /* projects section */
