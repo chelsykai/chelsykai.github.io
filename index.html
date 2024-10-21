@@ -32,13 +32,32 @@
     <div class="container">
             <!-- home section -->
             <section id="home">
+                <div class="bg">
+                    <img src="multimedia/images/homebg.jpg" alt="home background" id="homebg">    
+                </div>
+            
+                <div class="content">
+                    <p id="l1">Hi, I'm <span style="color: #921A40; font-weight: bolder;">Chelsy</span> !</p>
+                    <p id="l2">
+                        I'm a college student from Manila, I am deeply fascinated by software <br> 
+                        jobs and I aspire to build a career in software and web development, <br>
+                        focusing on creating innovative solutions and applications.
+                    </p>
+                    <button id="btnHi" onclick="sendMsg(this)" value="mailto:chelsyparalejas@gmail.com">Say Hi!</button>
+                </div>
+            </section>
+            <!-- <section id="home">
+                <div class="bg">
+                    <img src="multimedia/images/homebg.jpg" alt="homebg" id="homebg">    
+                </div>
+                
                 <p id="l1">hi, i'm <span style="color: #921A40; font-weight: bolder;">chelsy</span> !</p>
                 <p id="l2">I'm a college student from Manila, I am deeply fascinated by software <br> 
                     jobs and I aspire to build a career in software and web development, <br>  focusing on creating innovative solutions and applications.
                 </p>
                     
                 <button id="btnHi" onclick="sendMsg(this)" value="mailto:chelsyparalejas@gmail.com">Say Hi!</button>
-            </section>
+            </section> -->
 
             <!-- about section -->
             <section id="about">
@@ -87,21 +106,40 @@
                <p id="titleact">/ Activities</p> 
                <div class="conAct">
                     <div class="exp">
-                        <p id="titleexp">Experience</p>
+                        <p id="titleexp">EXPERIENCE</p>
                             <div class="line1"> </div>
-                            <div class="block1"> </div>
+                            <div class="block1">
+                                <div class="explist">
+                                    <ul>
+                                        <li><img src="multimedia/images/flowericon.png" id="flowericon"> <span style="color: #921A40; font-weight: bold;">AWS Cloud Club</span> - Department of Data Analytics Member, <br> Organization in PUP Manila (2023) </li> 
+                                        <p><br></p>
+                                        <li><img src="multimedia/images/flowericon.png" id="flowericon"> <span style="color: #921A40; font-weight: bold;">RONSAR Animal Bite Clinic</span> - Secretary & Encoder <br> (2023 - 2024) </li> 
+                                        <p><br></p>
+                                        <li><img src="multimedia/images/flowericon.png" id="flowericon"> <span style="color: #921A40; font-weight: bold;">Developer of Next Advanced Technology (DONAT)</span> <br>- Org Member, Organization in STI College (2021 - 2023) </li> 
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="resume">
+                                <p id="resumenote">For more information, here's a downloadable PDF file of my resume: </p>
+                                <a href="documents/RESUME_Paralejas.pdf" id="resumebtn">DOWNLOAD RESUME</a>
+                            </div>
                     </div>
                     <div class="trainings">
-                        <p id="titletrain">Trainings Attended</p>
+                        <p id="titletrain">TRAININGS ATTENDED</p>
                             <div class="line2"> </div>
-                            <div class="block2"> </div>
+                            <div class="block2"> 
+                                <div class="trainlist">
+                                    <ul>
+                                        <li><img src="multimedia/images/flowericon.png" id="flowericon"> <span style="color: #921A40; font-weight: bold;">On-The-Job Training</span> <span style="color: #921A40;"> <br>When:</span> April 03,2023-May 11,2023<br> <span style="color: #921A40;">Where:</span> Municipality of Angono, Rizal – COMELEC Office</li> 
+                                        <p><br></p>
+                                        <li><img src="multimedia/images/flowericon.png" id="flowericon"> <span style="color: #921A40; font-weight: bold;">NC II (TESDA) - Computer Systems Servicing</span> <br> <span style="color: #921A40;">When: </span>December 19, 2023 – February 20, 2024 <br> <span style="color: #921A40;">Where:</span> Mindbank Training and Skills Corp. (#138 Timog Avenue, Quezon City)</li> 
+                                        <p><br></p>                                        <p><br></p>
+                                        <li><img src="multimedia/images/flowericon.png" id="flowericon"> <span style="color: #921A40; font-weight: bold;">Computer Programming Training (JAVA)</span> <br> <span style="color: #921A40;">When: </span>August 09, 2024 – September 10, 2024 <br> <span style="color: #921A40;">Where:</span> Polytechnic University of the Philippines, Institute of Technology</li>                                 </div>
+                            </div>
                     </div>
                 </div> 
                     
-                <div class="resume">
-                    <p id="resumenote">For more information, here's a downloadable PDF file of my resume: </p>
-                    <a href="documents/RESUME_Paralejas.pdf" id="resumebtn">DOWNLOAD RESUME</a>
-                </div>
+                
             </section>
 
             <!-- projects section -->
